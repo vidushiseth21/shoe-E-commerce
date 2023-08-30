@@ -1,0 +1,61 @@
+body {
+  font-family: sans serif;
+  margin: 0, auto;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgb(208, 207, 209);
+  padding: 20px;
+  position: relative;
+}
+#viu {
+  font-size: 25px;
+}
+.add {
+  text-transform: uppercase;
+}
+ul {
+  line-height: 1.5;
+  list-style: square;
+}
+a:hover {
+  color: rgb(190, 22, 22);
+  text-decoration: none;
+}
+button {
+  background-color: black;
+  color: aliceblue;
+  border: none;
+  cursor: pointer;
+  border: 5px solid black;
+  width: 100%;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+  border-top: 5px solid black;
+  color: aqua;
+}
+.du {
+  text-transform: uppercase;
+  color: #777;
+  font-weight: bold;
+}
+
+.product {
+  width: 825px;
+  border: 5px solid black;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1::before {
+  content: "sale";
+  font-size: 20px;
+  position: absolute;
+  top: -30px;
+  left: -25px;
+  text-transform: uppercase;
+  background-color: rgb(223, 108, 108);
+  letter-spacing: 2px;
+}
